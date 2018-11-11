@@ -156,8 +156,9 @@ public class Capturer {
                     deviceInfo.setText(getDevices());
                 }
                 try {
-                    printWriter = new PrintWriter(new FileWriter(new File("packetInfo-" + System.currentTimeMillis() + ".txt")));
-                    dataOutput = new DataOutputStream(new FileOutputStream(new File("packets-" + System.currentTimeMillis() + ".bin")));
+                    String currentTime = String.valueOf(System.currentTimeMillis());
+                    printWriter = new PrintWriter(new FileWriter(new File("packetInfo-" + currentTime + ".txt")));
+                    dataOutput = new DataOutputStream(new FileOutputStream(new File("packets-" + currentTime + ".bin")));
                 } catch (IOException err) {
                     err.printStackTrace();
                 }
