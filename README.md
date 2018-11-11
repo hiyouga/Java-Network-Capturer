@@ -15,5 +15,5 @@ For BUAA CST Java Programming Course Design.
     1. Configure Build Path, add `jpcap.jar` to your Libraries.
     2. Change Native librart location to the dictionary of `Jpcap.dll`.
 - VS Code:
-    1. Put `Jpcap.dll` in your `default_jre(>8)/bin` folder.
+    1. Put `Jpcap.dll` in your `default_jre(>1.8.0)/bin` folder.
     2. Edit the `.classpath` file and configure the library path.
