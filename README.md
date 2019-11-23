@@ -1,6 +1,7 @@
 # Java-Network-Capturer
-Capturing and analyzing network packages using Jpcap library.  
+Capturing and analyzing network packages using Jpcap library.
 For BUAA CST Java Programming Course Design.
+
 # Usage
 1. Put `Jpcap.dll` in your `default_jre(>1.8.0)/bin` folder.
 2. Start program.
@@ -13,7 +14,7 @@ For BUAA CST Java Programming Course Design.
 # For developers
 - Eclipse:
     1. Configure Build Path, add `jpcap.jar` to your Libraries.
-    2. Change Native librart location to the dictionary of `Jpcap.dll`.
+    2. Change Native library location to the dictionary of `Jpcap.dll`.
 - VS Code:
     1. Put `Jpcap.dll` in your `default_jre(>1.8.0)/bin` folder.
     2. Edit the `.classpath` file and configure the library path.
